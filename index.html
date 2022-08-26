@@ -114,6 +114,9 @@
                                     <div class="col-md-4">
                                         <img src="bootstrap-icon.png" class="icon icon-bootstrap">
                                     </div>
+                                    <div class="col-md-4">
+                                        <img src="php-icon.png" class="icon icon-php">
+                                    </div>
                                 </div>
                                 <div class="icons-explain col-md-6">
                                     <div class="icons-info">
@@ -122,27 +125,32 @@
                                     <div class="text text-html">
                                         <p><b>HTML5</b></p>
                                         <p>Sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>
-                                        <p>Tenho experiência de 6 mêses</p>
+                                        <p>Tenho experiência de 7 meses</p>
                                     </div>
                                     <div class="text text-css">
                                         <p><b>CSS3</b></p>
                                         <p>Utilizado para estilizar o conteúdo web.</p>
-                                        <p>Tenho experiência de 5 mêses</p>
+                                        <p>Tenho experiência de 6 meses</p>
                                     </div>
                                     <div class="text text-js">
                                         <p><b>Javascript</b></p>
                                         <p>Linguagem de programação de script para executar comandos e atalhos.</p>
-                                        <p>Tenho experiência de 3 mesês</p>
+                                        <p>Tenho experiência de 4 meses</p>
                                     </div>
                                     <div class="text text-jquery">
                                         <p><b>jQuery</b></p>
                                         <p>jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente.</p>
-                                        <p>Tenho experiência de 3 mêses</p>
+                                        <p>Tenho experiência de 4 meses</p>
                                     </div>
                                     <div class="text text-bootstrap">
                                         <p><b>Bootstrap</b></p>
                                         <p>Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas.</p>
-                                        <p>Tenho experiência de 2 mêses</p>
+                                        <p>Tenho experiência de 3 meses</p>
+                                    </div>
+                                    <div class="text text-php">
+                                        <p><b>PHP</b></p>
+                                        <p>PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.</p>
+                                        <p>Tenho experiência de 1 mês</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +158,7 @@
                         <section class="anime">
                             <div class="row forth-page">
                                 <h2 class="subtitle subtitle-4">CONTATO</h2>
-                                <p><img src="smartphone.png" class="contact"> +55 (28) 99255-9469</p>
+                                <p><img src="smartphone.png" class="contact"> +55 (28) 99977-9469</p>
                                 <p><img src="email.png" class="contact"> kaua.jesuscristo78@gmail.com</p>
                                 <p><img src="linkedin-logotype.png" class="contact"> https://www.linkedin.com/in/kau%C3%A3-de-souza-da-silva/</p>
                             </div>  
@@ -210,6 +218,13 @@
                 function esconderEvento6 () {
                     $(".text-bootstrap").hide()
                 };
+
+                function mostrarEvento7 () {
+                    $(".text-php").show()
+                };
+                function esconderEvento7 () {
+                    $(".text-php").hide()
+                };
                 
                 
 
@@ -258,6 +273,9 @@
 
                 $(".text-bootstrap").hide()
                 $(".icon-bootstrap").hover (mostrarEvento6, esconderEvento6)
+
+                $(".text-php").hide()
+                $(".icon-php").hover (mostrarEvento7, esconderEvento7)
 
                 // animação
 
