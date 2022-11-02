@@ -79,7 +79,10 @@
                                 <h2 class="subtitle subtitle-2">PROJETOS</h2>
                                     <div class="col-md-4">
                                         <div class="janela janela1">
-                                            <div class="janela-rotate">EM BREVE</div>
+                                            <figure>
+                                                <a href="http://35.198.17.152/"><img src="login - projeto1.jpg" width="250px" class="projeto1"></a>
+                                                <figcaption class="text-projeto1">Neste projeto, desenvolvi habilidades de back-end. O site possui um sistema de login e um cadastro para ser preenchido. Todos esses dados serão enviados ao banco de dados.</figcaption>
+                                            </figure>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -114,9 +117,6 @@
                                     <div class="col-md-4">
                                         <img src="bootstrap-icon.png" class="icon icon-bootstrap">
                                     </div>
-                                    <div class="col-md-4">
-                                        <img src="php-icon.png" class="icon icon-php">
-                                    </div>
                                 </div>
                                 <div class="icons-explain col-md-6">
                                     <div class="icons-info">
@@ -125,32 +125,27 @@
                                     <div class="text text-html">
                                         <p><b>HTML5</b></p>
                                         <p>Sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>
-                                        <p>Tenho experiência de 7 meses</p>
+                                        <p>Tenho experiência de 6 mêses</p>
                                     </div>
                                     <div class="text text-css">
                                         <p><b>CSS3</b></p>
                                         <p>Utilizado para estilizar o conteúdo web.</p>
-                                        <p>Tenho experiência de 6 meses</p>
+                                        <p>Tenho experiência de 5 mêses</p>
                                     </div>
                                     <div class="text text-js">
                                         <p><b>Javascript</b></p>
                                         <p>Linguagem de programação de script para executar comandos e atalhos.</p>
-                                        <p>Tenho experiência de 4 meses</p>
+                                        <p>Tenho experiência de 3 mesês</p>
                                     </div>
                                     <div class="text text-jquery">
                                         <p><b>jQuery</b></p>
                                         <p>jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente.</p>
-                                        <p>Tenho experiência de 4 meses</p>
+                                        <p>Tenho experiência de 3 mêses</p>
                                     </div>
                                     <div class="text text-bootstrap">
                                         <p><b>Bootstrap</b></p>
                                         <p>Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas.</p>
-                                        <p>Tenho experiência de 3 meses</p>
-                                    </div>
-                                    <div class="text text-php">
-                                        <p><b>PHP</b></p>
-                                        <p>PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.</p>
-                                        <p>Tenho experiência de 1 mês</p>
+                                        <p>Tenho experiência de 2 mêses</p>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +153,7 @@
                         <section class="anime">
                             <div class="row forth-page">
                                 <h2 class="subtitle subtitle-4">CONTATO</h2>
-                                <p><img src="smartphone.png" class="contact"> +55 (28) 99977-9469</p>
+                                <p><img src="smartphone.png" class="contact"> +55 (28) 99255-9469</p>
                                 <p><img src="email.png" class="contact"> kaua.jesuscristo78@gmail.com</p>
                                 <p><img src="linkedin-logotype.png" class="contact"> https://www.linkedin.com/in/kau%C3%A3-de-souza-da-silva/</p>
                             </div>  
@@ -219,11 +214,12 @@
                     $(".text-bootstrap").hide()
                 };
 
-                function mostrarEvento7 () {
-                    $(".text-php").show()
-                };
                 function esconderEvento7 () {
-                    $(".text-php").hide()
+                    $(".text-projeto1").hide()
+                };
+
+                function mostrarEvento7 () {
+                    $(".text-projeto1").show()
                 };
                 
                 
@@ -254,6 +250,7 @@
                         $("html, body").animate ({scrollTop: $(".rodape").offset().top}, 1400)
                     });
                 });
+            
                 
 
                 
@@ -274,8 +271,8 @@
                 $(".text-bootstrap").hide()
                 $(".icon-bootstrap").hover (mostrarEvento6, esconderEvento6)
 
-                $(".text-php").hide()
-                $(".icon-php").hover (mostrarEvento7, esconderEvento7)
+                $(".text-projeto1").hide()
+                $(".projeto1").hover (mostrarEvento7, esconderEvento7)
 
                 // animação
 
